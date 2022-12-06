@@ -1,0 +1,14 @@
+dotenv
+elasticsearch
+urllib
+datetime
+hashlib
+json
+logging
+os
+random
+requests
+subprocess
+sys
+traceback
+validators
