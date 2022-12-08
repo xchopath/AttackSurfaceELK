@@ -1,5 +1,16 @@
 ## Setup
 
+### Elasticsearch Server
+```
+curl -X PUT http://server:9200/assetdomain
+curl -X PUT http://server:9200/assethttp
+curl -X PUT http://server:9200/httpscan
+curl -X PUT http://server:9200/assetnet
+curl -X PUT http://server:9200/netscan
+```
+
+### Agent
+
 1. Install ProjectDiscovery's Tools.
 ```
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
